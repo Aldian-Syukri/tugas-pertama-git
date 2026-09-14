@@ -1,0 +1,32 @@
+Markdown adalah format dokumen yang paling banyak digunakan oleh para developer. 
+Format ini digunakan secara luas untuk membuat dokumentasi software, file README di 
+repository GitHub, pertanyaan dan jawaban di Stack Overflow, prompt serta jawaban pada AI 
+(seperti ChatGPT dan Google Bard), komunikasi tim di Slack dan Discord, postingan di forum 
+(Reddit, DEV Community), hingga penulisan buku dan email. Bahkan, seluruh materi panduan ini 
+juga disusun menggunakan Markdown.
+
+Membuat Dokumen Markdown
+
+Dokumen Markdown menggunakan ekstensi .md dan dapat dibuat menggunakan aplikasi teks apa pun 
+seperti Notepad. Namun, penggunaan Visual Studio Code sangat direkomendasikan karena memiliki 
+fitur khusus seperti preview yang memudahkan proses penulisan.
+
+Sintaks Dasar Markdown
+
+**Judul (**Heading**)**: Dibuat dengan menambahkan 1 hingga 6 simbol pagar (#) sebelum teks, 
+di mana jumlah simbol pagar menentukan tingkat dan ukuran judul.
+Gaya Teks:
+Tebal: Mengapit teks dengan dua tanda bintang (**teks**).
+Miring: Mengapit teks dengan satu tanda bintang (*teks*).
+Dicoret: Mengapit teks dengan dua tanda tilde (~~teks~~).
+Daftar (List):
+Ordered List: Diawali dengan nomor urut, titik, dan spasi (setara tag <ol> dan <li> pada HTML).
+Unordered List: Diawali dengan tanda hubung (-) dan spasi (setara tag <ul> dan <li> pada HTML).
+Tautan (Link) &amp; Gambar:
+Link: Ditulis dengan format [Nama Tautan](URL).
+Gambar: Ditulis dengan format ![Teks Alternatif](URL Gambar).
+Tabel: Dibuat menggunakan simbol pipe (|) untuk memisahkan antar kolom dan tanda hubung (---) 
+       untuk baris pemisah *header*.
+Blok Kode (Source Code Block): Dibuat dengan mengapit kode menggunakan tiga tanda backtick (``) serta 
+                               dapat menentukan nama bahasa pemrograman di awal blok (seperti html, 
+                               js, sql, atau shell).</li></ul></li></ol>
