@@ -1,0 +1,14 @@
+Rangkuman
+
+Version control merupakan praktik untuk melacak dan mengelola perubahan pada file dari waktu ke waktu.
+Version control sangat penting dalam pengembangan software. 
+Sebelum adanya sistem khusus, pengelolaan versi dilakukan secara sederhana dengan menyalin 
+file dan memberikan nomor revisi atau stempel waktu. Namun, cara tersebut memiliki risiko 
+kesalahan yang cukup tinggi.
+Untuk mengatasi permasalahan tersebut, dikembangkan Version Control System (VCS). 
+Berdasarkan arsitekturnya, VCS terbagi menjadi tiga jenis, yaitu:
+VCS Lokal: merupakan generasi awal VCS yang menggunakan basis data sederhana pada komputer lokal untuk menyimpan perubahan file. Contohnya adalah RCS (Revision Control System) yang dikembangkan pada tahun 1982.
+VCS Terpusat (Client–Server): dikembangkan untuk memungkinkan pengembang berkolaborasi melalui sistem yang berbeda dengan menyimpan data pada satu server terpusat. Contohnya adalah CVS (1986) dan Subversion (2000). Kekurangan sistem ini adalah ketergantungannya pada server. Jika server mengalami kerusakan atau kehilangan data, seluruh proyek dapat berisiko hilang. Selain itu, kontributor perlu terhubung ke server untuk melakukan aktivitas tertentu.
+VCS Terdistribusi (Peer-to-Peer): setiap client memiliki salinan lengkap dari repository, termasuk seluruh file dan riwayat perubahannya. Dengan demikian, apabila server mengalami gangguan atau kehilangan data, repository pada salah satu client dapat digunakan untuk memulihkan data ke server. Contoh VCS terdistribusi adalah Git (2005) dan Mercurial (2005).
+
+Secara keseluruhan, version control membantu pengembang dalam mengelola perubahan, menjaga riwayat pekerjaan, serta mendukung kolaborasi dalam pengembangan software. Git menjadi salah satu VCS terdistribusi yang banyak digunakan karena setiap repository menyimpan riwayat perubahan secara lengkap.
