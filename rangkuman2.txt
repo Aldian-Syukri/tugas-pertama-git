@@ -1,0 +1,27 @@
+Git adalah Version Control System (VCS) terdistribusi yang gratis, 
+open source, dan paling banyak digunakan saat ini. 
+Kegunaan utamanya meliputi pelacakan riwayat perubahan, kolaborasi jarak 
+jauh tanpa saling menimpa data, serta branching dan merging untuk bereksperimen 
+pada cabang terpisah.
+
+Berikut adalah rangkuman materi bab Git:
+1. Menyiapkan Git (Konfigurasi)
+Tempat Penyimpanan Konfigurasi: Pengaturan Git disimpan dalam tiga tingkatan, 
+                                yaitu sistem (--system), global (--global), dan lokal (--local).
+Identitas Pengguna: Pengaturan nama (user.name) dan email (user.email) dilakukan pada tingkat
+                    global karena informasi ini dicatat secara permanen pada setiap commit.
+Konfigurasi Tambahan: Digunakan untuk menetapkan editor default (seperti Visual Studio Code) dan 
+                    mengubah nama branch default saat inisialisasi dari master menjadi main 
+                    (git config --global init.defaultBranch main).
+
+2. Dasar-Dasar Git &amp; Alur Kerja Commit
+
+Membuat Repository          : Repository (kumpulan file beserta riwayat perubahannya) dapat dibuat 
+                              dari folder lokal menggunakan perintah git init atau mengkloning 
+                              repository yang sudah ada via git clone.
+Status File &amp; Commit    : Commit adalah snapshot (perekaman kondisi) repository pada titik waktu
+                              tertentu. File dalam Git memiliki 4 status, yaitu untracked 
+                              (belum dilacak), unmodified (belum diubah), modified (telah diubah), 
+                              dan staged (ditambahkan ke staging area).
+Perintah Dasar              : git status: Memeriksa status file dalam repository.
+                              git add
